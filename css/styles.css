@@ -1,0 +1,127 @@
+@import url('../images/background.jpg');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed|Sarabun');
+
+.container{
+  box-shadow: -2px 0px 27px rgba(0,0,0,0.75);
+  margin: 2rem auto;
+  max-width: 90%;
+  width: 1200px;
+  background: #FF5;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center; /* for the unorder list */
+}
+#logo{
+  font-family: 'Sarabun', sans-serif;
+  margin-left: 1rem;
+}
+.topNav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+}
+.topNav ul{
+  font-family: 'Asap+Condensed', sans-serif;
+  display: flex;
+  float: right;
+}
+.topNav ul li{
+  list-style-type: none;
+  margin-left: 1rem;
+}
+.topNav ul li:hover{
+  opacity: 0.7;
+  background-color: #FF9;
+  border-radius: 8px;
+  transition: 1s;
+}
+.hero{
+  align-items: center;
+  background-image:
+  url('../images/background.jpg');
+    /*location for image: url(https://images.unsplash.com/photo-1544966608-fe0124f604b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=866&q=80);*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  height: 70vh;
+  background-position: center;
+  display: flex;  
+  flex-direction: column; 
+  font-family: 'Asap+Condensed', sans-serif;
+  color: white;
+}
+.headshot{
+  height: 100px;
+  width: 100px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.languages{
+  color: black;
+}
+.languages h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.languages ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info h3{
+  display: flex;
+  justify-content: center;
+}
+.info ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info ul li img {
+  border-style: double;
+  height: 200px;
+  width: 300px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 15px;
+  font-size: 100px;
+  width: 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+  color: #00FF00;
+  border-radius: 8px;
+  transition: 1s;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: #FFF;
+}
+.fa-github {
+  background: #000;
+  color: #FFF;
+}
+.fa-google {
+  background: #DB4437;
+  color: #FFF;
+}
+.fa-linkedin {
+  background: #0077B5;
+    color: #FFF;
+}
