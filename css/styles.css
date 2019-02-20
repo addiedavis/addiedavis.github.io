@@ -6,7 +6,7 @@
   margin: 2rem auto;
   max-width: 90%;
   width: 1200px;
-  background: #FF5;
+  background: #EBEB27;
 }
 .top{
   display: flex;
@@ -34,7 +34,7 @@
 }
 .topNav ul li:hover{
   opacity: 0.7;
-  background-color: #FF9;
+  background-color: #EBEB27;
   border-radius: 8px;
   transition: 1s;
 }
@@ -53,6 +53,9 @@
   flex-direction: column; 
   font-family: 'Asap+Condensed', sans-serif;
   color: white;
+  opacity: 0.85;
+  filter: alpha(opacity=80);
+  text-shadow: 2px 2px black;
 }
 .headshot{
   height: 100px;
@@ -88,6 +91,15 @@
   border-style: double;
   height: 200px;
   width: 300px;
+}
+.hyper a {
+  color: black;
+}
+.hyper a:hover{
+  opacity: 0.7;
+  color: #00FF00;
+  border-radius: 8px;
+  transition: 1s;
 }
 .footer {
   display: flex;
