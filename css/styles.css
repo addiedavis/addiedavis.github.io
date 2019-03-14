@@ -58,8 +58,9 @@
   text-shadow: 2px 2px black;
 }
 .headshot{
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 150px;
+  border: solid;
 }
 .content {
   display: grid;
