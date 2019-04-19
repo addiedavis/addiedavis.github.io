@@ -1,6 +1,7 @@
 @import url('../images/background.jpg');
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed|Sarabun');
 
+
 .container{
   box-shadow: -2px 0px 27px rgba(0,0,0,0.75);
   margin: 2rem auto;
@@ -12,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  align-items: center; /* for the unorder list */
+  align-items: center;
 }
 #logo{
   font-family: 'Sarabun', sans-serif;
@@ -42,7 +43,6 @@
   align-items: center;
   background-image:
   url('../images/background.jpg');
-    /*location for image: url(https://images.unsplash.com/photo-1544966608-fe0124f604b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=866&q=80);*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -65,6 +65,9 @@
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.content img {
+  border-radius: 8px;
 }
 .languages{
   color: black;
@@ -95,6 +98,7 @@
 }
 .hyper a {
   color: black;
+  text-decoration: none;
 }
 .hyper a:hover{
   opacity: 0.7;
